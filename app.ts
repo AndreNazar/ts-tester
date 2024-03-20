@@ -7,7 +7,7 @@ class User {
     }
 
     getNumText(): string {
-        return `Номер - ${this.num}`
+        return `Номер такой - ${this.num}`
     }
 }
 
