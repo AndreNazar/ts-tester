@@ -3,7 +3,7 @@ var User = /** @class */ (function () {
         this.num = num;
     }
     User.prototype.getNumText = function () {
-        return "\u041D\u043E\u043C\u0435\u0440 \u0442\u0430\u043A\u043E\u0439 - ".concat(this.num);
+        return "Number - ".concat(this.num);
     };
     return User;
 }());
