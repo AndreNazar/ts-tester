@@ -3,7 +3,7 @@ var User = /** @class */ (function () {
         this.num = num;
     }
     User.prototype.getNumText = function () {
-        return "Number - ".concat(this.num);
+        return "NUMBER - ".concat(this.num);
     };
     return User;
 }());
